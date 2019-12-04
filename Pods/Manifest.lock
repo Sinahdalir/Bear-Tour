@@ -1,0 +1,16 @@
+PODS:
+  - ARCoreLocation (0.1.9)
+
+DEPENDENCIES:
+  - ARCoreLocation (~> 0.1.9)
+
+SPEC REPOS:
+  trunk:
+    - ARCoreLocation
+
+SPEC CHECKSUMS:
+  ARCoreLocation: 40055217f8339952689fae363f54a7f015088a83
+
+PODFILE CHECKSUM: fc99fad2d4bbef0b0e58e5ca3dddbb168acff79d
+
+COCOAPODS: 1.8.4
