@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BearTour.xcodeproj">
+      location = "group:/Users/sinahdalir/iOS Decal/BearTour/BearTour.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

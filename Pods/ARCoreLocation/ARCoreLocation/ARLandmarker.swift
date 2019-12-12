@@ -292,7 +292,13 @@ extension ARLandmarker: ARSKViewDelegate {
         // IF LANDMARK NODE IS CLOSE, USE SCALE
         // IF LANDMARK NODE IS FAR, USE SCALE / something
         // etc
-        landmarkNode.setScale(scale)
+        if location!.distance(from: landmark.location) <= 40  {
+            landmarkNode.setScale(scale)
+        } else if location!.distance(from: landmark.location) <= 80 {
+            landmarkNode.setScale(scale / 2)
+        } else if location!.distance(from: landmark.location) <= 150 {
+            landmarkNode.setScale(scale / 4)
+        } 
         if distance < minumumVisibleDistance || distance > maximumVisibleDistance {
             landmarkNode.isHidden = true
             //            landmarkNode.physicsBody?.categoryBitMask = 0

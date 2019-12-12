@@ -8,21 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		236034E02393B310001B55C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236034DF2393B310001B55C0 /* AppDelegate.swift */; };
-		236034E42393B310001B55C0 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236034E32393B310001B55C0 /* Scene.swift */; };
 		236034E62393B310001B55C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236034E52393B310001B55C0 /* ViewController.swift */; };
 		236034E92393B310001B55C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236034E72393B310001B55C0 /* Main.storyboard */; };
 		236034EB2393B315001B55C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236034EA2393B315001B55C0 /* Assets.xcassets */; };
 		236034EE2393B315001B55C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236034EC2393B315001B55C0 /* LaunchScreen.storyboard */; };
 		236034F82393BB52001B55C0 /* item.xib in Resources */ = {isa = PBXBuildFile; fileRef = 236034F72393BB52001B55C0 /* item.xib */; };
 		236034FA2393BC67001B55C0 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236034F92393BC67001B55C0 /* item.swift */; };
+		2360350023988E35001B55C0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236034FF23988E35001B55C0 /* DetailsViewController.swift */; };
+		2360350223A102F1001B55C0 /* OpenPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2360350123A102F1001B55C0 /* OpenPageViewController.swift */; };
+		2360350423A1182E001B55C0 /* GoBears.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2360350323A1182E001B55C0 /* GoBears.wav */; };
 		964991E53C6D8ACC0DBA2BD8 /* Pods_BearTour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B3EF511B6CF24BDB91C718 /* Pods_BearTour.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B9F90F9701DFAEC7A7DCA6A /* Pods-BearTour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BearTour.debug.xcconfig"; path = "Target Support Files/Pods-BearTour/Pods-BearTour.debug.xcconfig"; sourceTree = "<group>"; };
-		236034DC2393B310001B55C0 /* BearTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BearTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		236034DC2393B310001B55C0 /* Bear Tour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bear Tour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		236034DF2393B310001B55C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		236034E32393B310001B55C0 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		236034E52393B310001B55C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		236034E82393B310001B55C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		236034EA2393B315001B55C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +31,9 @@
 		236034EF2393B315001B55C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		236034F72393BB52001B55C0 /* item.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = item.xib; sourceTree = "<group>"; };
 		236034F92393BC67001B55C0 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
+		236034FF23988E35001B55C0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = BearTour/Controller/DetailsViewController.swift; sourceTree = SOURCE_ROOT; };
+		2360350123A102F1001B55C0 /* OpenPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPageViewController.swift; sourceTree = "<group>"; };
+		2360350323A1182E001B55C0 /* GoBears.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GoBears.wav; path = ../../../Downloads/GoBears.wav; sourceTree = "<group>"; };
 		555407718454D1F4C85893BA /* Pods-BearTour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BearTour.release.xcconfig"; path = "Target Support Files/Pods-BearTour/Pods-BearTour.release.xcconfig"; sourceTree = "<group>"; };
 		D7B3EF511B6CF24BDB91C718 /* Pods_BearTour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BearTour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -59,7 +63,7 @@
 		236034DD2393B310001B55C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				236034DC2393B310001B55C0 /* BearTour.app */,
+				236034DC2393B310001B55C0 /* Bear Tour.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,16 +72,34 @@
 			isa = PBXGroup;
 			children = (
 				236034DF2393B310001B55C0 /* AppDelegate.swift */,
-				236034E32393B310001B55C0 /* Scene.swift */,
-				236034E52393B310001B55C0 /* ViewController.swift */,
-				236034F92393BC67001B55C0 /* item.swift */,
-				236034E72393B310001B55C0 /* Main.storyboard */,
+				236034FD23986A14001B55C0 /* View */,
+				236034FE23986A2A001B55C0 /* Controller */,
 				236034EA2393B315001B55C0 /* Assets.xcassets */,
-				236034F72393BB52001B55C0 /* item.xib */,
-				236034EC2393B315001B55C0 /* LaunchScreen.storyboard */,
+				2360350323A1182E001B55C0 /* GoBears.wav */,
 				236034EF2393B315001B55C0 /* Info.plist */,
 			);
 			path = BearTour;
+			sourceTree = "<group>";
+		};
+		236034FD23986A14001B55C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				236034E72393B310001B55C0 /* Main.storyboard */,
+				236034EC2393B315001B55C0 /* LaunchScreen.storyboard */,
+				236034F72393BB52001B55C0 /* item.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		236034FE23986A2A001B55C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				236034FF23988E35001B55C0 /* DetailsViewController.swift */,
+				236034E52393B310001B55C0 /* ViewController.swift */,
+				236034F92393BC67001B55C0 /* item.swift */,
+				2360350123A102F1001B55C0 /* OpenPageViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		3B599CF48B494B5B8BB272E6 /* Frameworks */ = {
@@ -116,7 +138,7 @@
 			);
 			name = BearTour;
 			productName = BearTour;
-			productReference = 236034DC2393B310001B55C0 /* BearTour.app */;
+			productReference = 236034DC2393B310001B55C0 /* Bear Tour.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -159,6 +181,7 @@
 			files = (
 				236034F82393BB52001B55C0 /* item.xib in Resources */,
 				236034EE2393B315001B55C0 /* LaunchScreen.storyboard in Resources */,
+				2360350423A1182E001B55C0 /* GoBears.wav in Resources */,
 				236034EB2393B315001B55C0 /* Assets.xcassets in Resources */,
 				236034E92393B310001B55C0 /* Main.storyboard in Resources */,
 			);
@@ -214,9 +237,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				236034FA2393BC67001B55C0 /* item.swift in Sources */,
+				2360350223A102F1001B55C0 /* OpenPageViewController.swift in Sources */,
 				236034E62393B310001B55C0 /* ViewController.swift in Sources */,
-				236034E42393B310001B55C0 /* Scene.swift in Sources */,
 				236034E02393B310001B55C0 /* AppDelegate.swift in Sources */,
+				2360350023988E35001B55C0 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +393,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Sina.BearTour;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bear Tour";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,7 +412,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Sina.BearTour;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bear Tour";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
